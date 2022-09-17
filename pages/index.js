@@ -11,6 +11,7 @@ function HomePage({ products }) {
             image={pr.image}
             price={pr.price}
             description={pr.description}
+            id={pr.id}
           />
         ))}
       </section>
